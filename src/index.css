@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* div{
+  text-align: center;
+} */
+body{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* td
+ {
+    border: 2px solid black;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    color:black;
+    background-color: rgb(163, 163, 56);
+} */
+button {
+    height: 33px;
+    width: 125px;
+    background-color:gray;
+    color: white;
+    border-radius: 10px;
+    margin:10px;
+    
+}
+
+
+/* th {
+
+    background-color: rgb(19, 3, 19);
+    color: rgb(33, 5, 5);
+    border: 2px solid black;
+    width: 205px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+} */
+nav.a{
+  margin-right:5px ;
+}
+nav.a.active{
+  text-decoration: none;
+  font-weight: bold;
+  color:blue
+}
+
+.deleteT{
+  height: 30px;
+    width: 125px;
+    background-color:gray;
+    color: white;
+    border-radius: 10px;
+    margin:10px;
+
+}
+.peginationB{
+  width:80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.peginationB a{
+  padding:10px;
+  margin: 8px;
+  border-radius: 5px;
+  border:1px solid purple;
+  color:purple;
+  cursor: pointer;
+}
+.peginationB a:hover{
+  color:white;
+  background-color:rgb(134, 198, 198);
+}
+.peginstionActive a{
+  color:white;
+  background-color:rgb(134, 198, 198);
+
+}
