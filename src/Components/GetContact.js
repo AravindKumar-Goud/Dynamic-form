@@ -108,8 +108,7 @@ function GetContact() {
 
   return (
     <>
- 
- 
+ <h1>git changes </h1>
       <button onClick={()=>{navigate(`postandedit`)}}>Create</button>
       <h1>users </h1>
       <div>
